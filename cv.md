@@ -54,3 +54,8 @@ function disariumNumber(n){
 * JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/ "learn.javascript.ru website")
 * RS Schools Course «JavaScript/Front-end. Stage 0»
 ***
+
+### Languages:
+* English - B2 (but online test at [EFset](https://www.efset.org/ "efset website") says that it is C1-C2)
+* Russian - native
+* German - beginner
