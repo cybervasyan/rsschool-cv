@@ -48,3 +48,9 @@ function disariumNumber(n){
 }
 ```
 ***
+
+### Courses:
+* HTML and CSS tutorials on [w3school](https://www.w3schools.com/ "w3school website")
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/ "learn.javascript.ru website")
+* RS Schools Course «JavaScript/Front-end. Stage 0»
+***
