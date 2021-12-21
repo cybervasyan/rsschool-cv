@@ -26,3 +26,25 @@ Now I am learning JavaScript and my dream is to become a front-end developer.
 * Git, GitHub
 * WebStorm
 ***
+
+### Code example:
+**Disarium Number (Special Numbers Series #3):** Disarium number is the number that
+The sum of its digits powered with their respective positions is equal to the number itself.
+Given a number, Find if it is Disarium or not.
+
+```
+function disariumNumber(n){
+  let nButStr = "" + n;
+  let result = 0;
+  for (let i = 0; i < nButStr.length; i++){
+    result += (+nButStr[i]) ** (i + 1);
+  }
+  
+  if (result == n){
+    return "Disarium !!";
+  }else{
+    return "Not !!";
+  }
+}
+```
+***
