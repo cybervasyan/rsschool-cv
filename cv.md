@@ -18,3 +18,11 @@ At first I learned Python, then I realized that front-end is more interesting fo
 Now I am learning JavaScript and my dream is to become a front-end developer.
 ***
 
+### Skills:
+
+* HTML5
+* CSS3
+* JavaScript basics
+* Git, GitHub
+* WebStorm
+***
