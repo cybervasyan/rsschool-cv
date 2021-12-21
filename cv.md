@@ -6,7 +6,7 @@
 
 **Phone:** +7-921-315-69-69  
 **e-mail:** saidashev.eldar@gmail.com  
-**Telegram:** @politex_loxi  
+**Telegram:** @politex_loxi
 ***
 
 ### Briefly About Myself:
