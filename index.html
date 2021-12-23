@@ -30,5 +30,27 @@
         <li>Git, GitHub</li>
         <li>WebStorm</li>
     </ul>
+    <hr></hr>
+    <h3>Code example:</h3>
+    <p><b>Disarium Number (Special Numbers Series #3):</b> Disarium number is the number that
+        The sum of its digits powered with their respective positions is equal to the number itself.
+        Given a number, Find if it is Disarium or not.</p>
+    <code>
+        <pre>
+        function disariumNumber(n){
+  let nButStr = "" + n;
+  let result = 0;
+  for (let i = 0; i < nButStr.length; i++){
+    result += (+nButStr[i]) ** (i + 1);
+  }
+
+  if (result == n){
+    return "Disarium !!";
+  }else{
+    return "Not !!";
+  }
+}
+        </pre>
+    </code>
 </body>
 </html>
