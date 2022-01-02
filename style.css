@@ -72,7 +72,24 @@ body a{
 
 }
 
-.main_section:nth-child(2){
+#profile{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main_section:first-child{
     width: 100%;
     border-bottom-width: 7px;
 }
