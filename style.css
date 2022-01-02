@@ -1,3 +1,5 @@
-body{
-    background: linear-gradient(to bottom right, aqua, pink 60%);
+root{
+    --secondary-color: #d7d1c9;
+    --accent-color: #829985;
+    --text-color: black;
 }
