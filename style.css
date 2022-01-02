@@ -3,6 +3,16 @@
     --accent-color: #829985;
     --text-color: black;
     --text-color-accent: white;
+    --text-color-link: white;
+}
+
+body a{
+    text-decoration: none;
+    color: var(--text-color-link);
+}
+
+.main a{
+    --text-color-link: var(--accent-color);
 }
 
 .header{
@@ -20,8 +30,11 @@
 }
 
 .navigation a{
-    text-decoration: none;
-    color: inherit;
+    --text-color-link: inherit;
+}
+
+.footer a{
+    --text-color-link: inherit;
 }
 
 .main{
@@ -47,4 +60,17 @@
     .main_section {
         width: 100%;
     }
+}
+
+.footer{
+    display: flex;
+    background-color: var(--accent-color);
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+
+.footer_rss{
+    margin-left: auto;
 }
