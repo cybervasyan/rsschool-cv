@@ -7,6 +7,11 @@
     --small-screen-breakpoint: 768px;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -74,7 +79,15 @@ body a{
 .main_section{
     width: 40%;
     border-bottom: 3px solid var(--secondary-color);
+    padding: 20px;
+}
 
+.main_section_header{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--accent-color);
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .section-profile{
@@ -114,7 +127,6 @@ body a{
     width: 100%;
     border-bottom-width: 7px;
 }
-
 
 .footer{
     display: flex;
