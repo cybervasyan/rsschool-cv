@@ -110,6 +110,7 @@ body a{
 
 .section-profile-title-name{
     position: relative;
+    margin: 20px;
 }
 
 .section-profile-title-name::after{
@@ -121,6 +122,7 @@ body a{
     width: 140px;
     height: 2px;
     background-color: #829985;
+    margin-bottom: 10px;
 }
 
 .main_section:first-child{
