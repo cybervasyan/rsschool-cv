@@ -50,6 +50,10 @@ body a{
     color: var(--text-color-accent);
 }
 
+.burger-menu-button{
+    display: none;
+}
+
 .section-profile-pic {
     width: 200px;
     height: 200px;
@@ -169,6 +173,21 @@ ul{
 
     .navigation{
         flex-direction: column;
+    }
+
+    .burger-menu-button{
+        display: block;
+        margin-left: auto;
+        background: transparent;
+        border: none;
+    }
+
+    .collapsed{
+        display: flex;
+    }
+
+    nav{
+        display: none;
     }
 }
 
