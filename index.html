@@ -4,67 +4,122 @@
     <meta charset="UTF-8">
     <title>Eldar Saidashev CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/237781b485.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1 id="name">Eldar Saidashev</h1>
-    <hr></hr>
-    <h3>Junior Frontend Developer</h3>
-    <hr></hr>
-    <h3>Contact information</h3>
-    <div id="phone"><b>Phone:</b> +7-981-315-69-69</div>
-    <div id="email"><b>e-mail:</b> saidashev.eldar@gmail.com</div>
-    <div id="telegram"><b>Telegram:</b> @politex_loxi</div>
-    <hr></hr>
-    <h3>Briefly About Myself</h3>
-    <p>I graduated from Polytechnic University with a bachelor degree in economics.
-        At the moment I am working as an accountant.
-        A year ago I wanted to change my field of work, because I love IT.
-        At first I learned Python, then I realized that front-end is more interesting for me.
-        Now I am learning JavaScript and my dream is to become a front-end developer.</p>
-    <hr></hr>
-    <h3>Skills</h3>
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript basics</li>
-        <li>Git, GitHub</li>
-        <li>WebStorm</li>
-    </ul>
-    <hr></hr>
-    <h3>Code example</h3>
-    <p><b>Disarium Number (Special Numbers Series #3):</b> Disarium number is the number that
-        The sum of its digits powered with their respective positions is equal to the number itself.
-        Given a number, Find if it is Disarium or not.</p>
-    <code>
-        <pre>
-        function disariumNumber(n){
-  let nButStr = "" + n;
-  let result = 0;
-  for (let i = 0; i < nButStr.length; i++){
-    result += (+nButStr[i]) ** (i + 1);
-  }
+    <header class="header">
+        <div class="container header-container">
+            <button class="burger-menu-button" id="burger-menu-button"><i class="fas fa-bars"></i></button>
+            <nav id="navigation">
+                <ul class="navigation">
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code example</a></li>
+                    <li>Projects</li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#languages">Language skills</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="main_section section-profile">
+                <img src="assets/pig.png" alt="profile-pic" class="section-profile-pic">
+                <div class="section-profile-title">
+                    <h1 class="section-profile-title-name">Eldar Saidashev</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </div>
+            </section>
 
-  if (result == n){
-    return "Disarium !!";
-  }else{
-    return "Not !!";
-  }
-}
-        </pre>
-    </code>
-    <hr></hr>
-    <h3>Courses</h3>
-    <ul>
-        <li>HTML and CSS tutorials on <a href="https://www.w3schools.com/">w3school</a></li>
-        <li>JavaScript Manual on <a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
-        <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
-    </ul>
-    <hr></hr>
-    <h3>Languages</h3>
-    <ul>
-        <li>English - B2 (but online test at <a href="https://www.efset.org/">EFset</a> says that it is C1-C2)</a></li>
-        <li>Russian - native</li>
-        <li>German - beginner</li>
-    </ul>
+            <section class="main_section" id="contacts">
+                <h2 class="main_section_header">Contacts</h2>
+                <div id="phone"><i class="fas fa-phone"></i>&nbsp;<b>Phone:</b> <a href="tel:+7-981-315-69-69" title="phone">+7-981-315-69-69</a></div>
+                <div id="email"><i class="fas fa-envelope-open-text"></i>&nbsp;<b>e-mail:</b> <a href="mailto:saidashev.eldar@gmail.com" title="email">saidashev.eldar@gmail.com</a></div>
+                <div id="telegram"><i class="fab fa-telegram"></i>&nbsp;<b>Telegram:</b> <a href="https://t.me/politex_loxi" title="telegram">@politex_loxi</a></div>
+                <div id="github"><i class="fab fa-github"></i>&nbsp;<b>Github:</b> <a href="https://github.com/cybervasyan" title="github">cybervasyan</a></div>
+            </section>
+
+            <section class="main_section" id="summary">
+                <h2 class="main_section_header">Briefly About Myself</h2>
+                <p>I graduated from Polytechnic University with a bachelor degree in economics.
+                    At the moment I am working as an accountant.
+                    A year ago I wanted to change my field of work, because I love IT.
+                    At first I learned Python, then I realized that front-end is more interesting for me.
+                    Now I am learning JavaScript and my dream is to become a front-end developer.</p>
+            </section>
+
+            <section class="main_section" id="skills">
+                <h2 class="main_section_header">Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript basics</li>
+                    <li>Git, GitHub</li>
+                    <li>WebStorm</li>
+                </ul>
+            </section>
+
+            <section class="main_section" id="code">
+                <h2 class="main_section_header">Code example</h2>
+                <p><b>Disarium Number (Special Numbers Series #3):</b> Disarium number is the number that
+                    The sum of its digits powered with their respective positions is equal to the number itself.
+                    Given a number, Find if it is Disarium or not.</p>
+            <pre class="code-example">
+                <code>
+                    function disariumNumber(n){
+                      let nButStr = &quot;&quot; + n;
+                      let result = 0;
+                      for (let i = 0; i &lt; nButStr.length; i++){
+                        result += (+nButStr[i]) ** (i + 1);
+                      }
+
+                      if (result == n){
+                        return &quot;Disarium !!&quot;;
+                      }else{
+                        return &quot;Not !!&quot;;
+                      }
+                    }
+                </code>
+            </pre>
+            </section>
+            <section class="main_section" id="education">
+                <h2 class="main_section_header">Education</h2>
+                <ul>
+                    <li>Peter the Great St.Petersburg Polytechnic University - Metallurgy Bachelor degree</li>
+                    <li>Peter the Great St.Petersburg Polytechnic University - Economic Bachelor degree</li>
+                </ul>
+            </section>
+
+            <section class="main_section" id="courses">
+                <h2 class="main_section_header">Courses</h2>
+                <ul>
+                    <li>HTML and CSS tutorials on <a href="https://www.w3schools.com/">w3school</a></li>
+                    <li>JavaScript Manual on <a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                </ul>
+            </section>
+
+            <section class="main_section" id="languages">
+                <h2 class="main_section_header">Languages</h2>
+                <ul>
+                    <li>English - B2 (but online test at <a href="https://www.efset.org/">EFset</a> says that it is C1-C2)</li>
+                    <li>Russian - native</li>
+                    <li>German - beginner</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>© 2022</div>
+        <a href="https://github.com/cybervasyan">Eldar Saidashev</a>
+        <a class="footer_rss" href="https://rs.school/js/"></a>
+    </footer>
+    <script src="index.js"></script>
 </body>
 </html>
