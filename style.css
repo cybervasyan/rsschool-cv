@@ -1,5 +1,20 @@
-root{
+:root{
     --secondary-color: #d7d1c9;
     --accent-color: #829985;
     --text-color: black;
+    --text-color-accent: white;
+}
+
+.header{
+    background-color: var(--accent-color);
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.navigation{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 2.3rem;
+    color: var(--text-color-accent);
 }
