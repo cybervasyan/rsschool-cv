@@ -147,11 +147,17 @@ ul{
     justify-content: flex-start;
     gap: 1rem;
     padding: 1rem;
+    align-items: center;
 
 }
 
 .footer_rss{
     margin-left: auto;
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/rss.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
