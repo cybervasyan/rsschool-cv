@@ -136,6 +136,11 @@ ul{
     color: var(--accent-color);
 }
 
+.code-example{
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+}
+
 .footer{
     display: flex;
     background-color: var(--accent-color);
