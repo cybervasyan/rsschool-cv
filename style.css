@@ -23,3 +23,28 @@
     text-decoration: none;
     color: inherit;
 }
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main_section{
+    width: 40%;
+    border-bottom: 3px solid var(--secondary-color);
+
+}
+
+.main_section:first-child{
+    width: 100%;
+    border-bottom-width: 7px;
+}
+
+@media (max-width: 768px) {
+    .main_section {
+        width: 100%;
+    }
+}
